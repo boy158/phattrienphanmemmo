@@ -1,0 +1,5 @@
+function tim_so_thieu($n, $arr) {
+    $tong_tat_ca = $n * ($n + 1) / 2;
+    $tong_mang = array_sum($arr);
+    return $tong_tat_ca - $tong_mang;
+}

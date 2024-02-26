@@ -1,0 +1,7 @@
+function chuyen_doi_gio($thoi_gian) {
+    $gio = (int)($thoi_gian / 3600);
+    $phut = (int)(($thoi_gian % 3600) / 60);
+    $giay = $thoi_gian % 60;
+
+    return "$gio giờ, $phut phút, $giay giây";
+}
